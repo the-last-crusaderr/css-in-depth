@@ -1,0 +1,51 @@
+:root{
+    box-sizing: border-box;
+}
+
+*,::before,::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    background-color: #eee;
+    font-family: monospace;
+}
+
+
+
+header{
+    background-color: skyblue;
+    color: white;
+    padding: 0.8em;
+    border-radius: 0.5em;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+
+.container{
+    display:flex;
+}
+
+.main{
+    width: 70%;
+    margin-top: 0.2em;
+    border: 1px solid lightgrey;
+    background-color: #fff;
+}
+
+.sidebar{
+    width: 30%;
+    padding: 1.5em;
+    background-color: #fff;
+    margin-left: 1.5em;
+}
+
+.widget{
+    background-color: skyblue;
+    display: block;
+    margin-bottom: 0.4em;
+    font-weight: bold;
+    text-align:center;
+}
